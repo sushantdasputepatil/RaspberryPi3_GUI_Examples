@@ -1,0 +1,21 @@
+import tkinter as tk
+#('wasy10', 'Piboto', 'msam10', 'DejaVu Sans Mono', 'esint10', 'msbm10', 'Piboto', 'cmr10', 'PibotoLt', 'Bitstream Vera Sans', 'Bitstream Vera Sans Mono', 'FreeSerif', 'Bitstream Vera Serif', 'stmary10', 'DejaVu Sans', 'rsfs10', 'cmmi10', 'Liberation Mono', 'Droid Sans Fallback', 'Liberation Serif', 'eufm10', 'Piboto', 'Liberation Sans', 'Piboto Condensed', 'FreeSans', 'cmex10', 'Noto Mono', 'DejaVu Serif', 'FreeMono', 'cmsy10')
+root = tk.Tk()
+root.option_add('*Font', 'FreeSerif 25')
+root.geometry("800x480")
+root.configure(bg='black')
+
+label = tk.Label(root, text = "A", font="FreeSerif 25 bold", text1= "ntenna", bg="black", fg="white") 
+#label = tk.Label(root, text = "ntenna\n\nattern\n\neasurment\n\nystem", bg="black", fg="white")
+#label2 = tk.Label(root, text = "A\n\nP\n\nM\n\nS", bg="black", fg="white", font="FreeSerif 25 bold")
+#label2 = tk.Label(root, text = "Pattern")
+#label3 = tk.Label(root, text = "Measurement")
+#label4 = tk.Label(root, text = "System")
+#label.pack(side="right")
+#label2.pack(side="left")
+label.pack(padx = 5, pady = 5)
+#label2.pack(padx = 50, pady = 5)
+#label3.pack(padx = 5, pady = 5)
+#label4.pack(padx = 5, pady = 5)
+ 
+root.mainloop()
